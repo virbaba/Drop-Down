@@ -19,7 +19,7 @@ function DropDown({ options }) {
 
   return (
     <>
-      <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+      <div>
         <Select
           options={options}
           isSearchable
